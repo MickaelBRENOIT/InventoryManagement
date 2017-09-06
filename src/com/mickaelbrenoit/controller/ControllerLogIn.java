@@ -1,4 +1,4 @@
-package com.mickaelbrenoit.inventorymanagement;
+package com.mickaelbrenoit.controller;
 
 public class ControllerLogIn {
 }
