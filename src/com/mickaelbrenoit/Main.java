@@ -1,4 +1,4 @@
-package com.mickaelbrenoit.inventorymanagement;
+package com.mickaelbrenoit;
 
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
@@ -10,7 +10,7 @@ public class Main extends Application {
 
     @Override
     public void start(Stage primaryStage) throws Exception{
-        Parent root = FXMLLoader.load(getClass().getResource("loginview.fxml"));
+        Parent root = FXMLLoader.load(getClass().getResource("view/loginview.fxml"));
         primaryStage.setTitle("Log In");
         primaryStage.setScene(new Scene(root, 800, 600));
         primaryStage.show();

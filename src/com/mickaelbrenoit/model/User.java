@@ -19,7 +19,7 @@ public class User {
      * @param password
      * @param mail
      * @param address
-     * @param role 
+     * @param role
      * @param phone
      */
     public User(int id, String lastName, String firstName, String password, String mail, String address, int role, String phone) {
